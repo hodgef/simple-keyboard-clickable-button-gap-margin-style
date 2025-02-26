@@ -1,0 +1,39 @@
+input {
+  width: 100%;
+  height: 100px;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  box-sizing: border-box;
+}
+
+.simple-keyboard {
+  max-width: 850px;
+}
+
+.simple-keyboard .hg-row {
+  display: flex;
+}
+
+.simple-keyboard .hg-button {
+  padding: 2px;
+  flex: 1;
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.simple-keyboard .hg-button span {
+  display: flex;
+  min-height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+
+.simple-keyboard .hg-button.hg-button-space {
+  flex: 10;
+}
