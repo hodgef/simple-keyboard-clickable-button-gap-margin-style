@@ -15,12 +15,20 @@ input {
   display: flex;
 }
 
+.simple-keyboard .hg-row:not(:last-child) {
+  margin-bottom: unset;
+}
+
 .simple-keyboard .hg-button {
   padding: 2px;
   flex: 1;
   cursor: pointer;
   user-select: none;
   white-space: nowrap;
+}
+
+.simple-keyboard .hg-row .hg-button:not(:last-child) {
+  margin-right: unset;
 }
 
 .simple-keyboard .hg-button span {
